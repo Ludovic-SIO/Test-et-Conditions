@@ -28,10 +28,10 @@ namespace Test_et_Conditions
                 if (choix == 4) taux = 0.021;
 
 
-            double salaire = (horsTaxes * taux);
+            double taxes= (horsTaxes * taux);
             //Console.WriteLine("Le % est {0}",salaire);
-            double TTC = (horsTaxes + salaire);
-            Console.WriteLine("Le Prix TTC est {0} DONT {1} EUROS DE TAXES", TTC,salaire);
+            double TTC = (horsTaxes + taxes);
+            Console.WriteLine("Le Prix TTC est {0} DONT {1} EUROS DE TAXES", TTC,taxes);
             Console.ReadKey();
 
            

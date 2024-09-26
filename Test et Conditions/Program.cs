@@ -29,9 +29,9 @@ namespace Test_et_Conditions
 
 
             double salaire = (horsTaxes * taux);
-            Console.WriteLine("Le % est {0}",salaire);
+            //Console.WriteLine("Le % est {0}",salaire);
             double TTC = (horsTaxes + salaire);
-            Console.WriteLine("Le Prix TTC est {0}", TTC);
+            Console.WriteLine("Le Prix TTC est {0} DONT {1} EUROS DE TAXES", TTC,salaire);
             Console.ReadKey();
 
            
